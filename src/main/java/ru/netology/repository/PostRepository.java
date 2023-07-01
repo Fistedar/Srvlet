@@ -6,7 +6,6 @@ import ru.netology.model.Post;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicLong;
-
 // Stub
 public class PostRepository {
   ConcurrentHashMap<Long,Post> data = new ConcurrentHashMap<>();
